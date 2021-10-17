@@ -2,7 +2,7 @@
 {
     class Beverage
     {
-        internal string description = string.Empty;
+        protected string description = string.Empty;
 
         public virtual decimal Cost()
         {
