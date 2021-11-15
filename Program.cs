@@ -4,10 +4,11 @@ using CoffeePattern.Condiments;
 
 namespace CoffeePattern
 {
-    class Program
+    public class Program
     {
-        static void Main()
+        public static void Main()
         {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
             Console.WriteLine("Выберите напиток");
             Console.WriteLine("1. House Blend");
             Console.WriteLine("2. Dark Roast");
